@@ -1,0 +1,7 @@
+/* DashBoard.css */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the components horizontally */
+  gap: 20px; /* Optional: Adds space between the components */
+}

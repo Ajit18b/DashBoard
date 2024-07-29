@@ -1,0 +1,26 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the container takes full viewport height */
+}
+
+.header {
+  /* Header styles */
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.footer {
+  /* Footer styles */
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.content {
+  flex: 1; /* Expands to take available space */
+  padding: 20px;
+  /* Optional: Add styles to ensure content doesn't overlap with header or footer */
+}

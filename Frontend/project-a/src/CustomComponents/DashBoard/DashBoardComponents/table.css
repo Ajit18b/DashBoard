@@ -1,0 +1,129 @@
+/* DataTable.css */
+
+.data-table-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px; /* Add margin to the bottom to create space for the footer */
+  }
+  
+  .table-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .data-table th, .data-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .data-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .data-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .edit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+/* DataTable.css */
+
+.modal-content {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  max-width: 500px;
+  width: 100%;
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-row input {
+  margin-left: 10px;
+  flex: 1;
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.modal-buttons {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.submit-button, .cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+}
